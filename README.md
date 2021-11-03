@@ -4,6 +4,8 @@ An API to retrieve general stock basic, and financial information from MarketWat
 
 This API only has two reference data: `/stock` amd `/stock/financial`
 
+This project is done with Flask framework, BeautifulSoup, and requests.
+
 ## `/stock`
 
 The `/stock` reference provides the basic information of the specific stock using the `ticker` parameter. It will return a 200 status code with data like price, high, low, open, close, volume, etc. It is essentially what you can see on MarketWatch website whenever you search a ticker.
