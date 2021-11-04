@@ -33,7 +33,7 @@ To call a financial data with different financial statement, you can call for Ap
 
 To call
 
-### Finance
+### Period
 
 The `period` default value is `annual` means the annual report. This will have the API call the default annual financial report of the company up to 5 years. There is only two values recognized by `period` parameter: `annual` and `quarter`. The `quarter` will show the quarterly report of the company. Any other values given out of `annual`, and `quarter` will result in default value of `annual`.
 
